@@ -1,3 +1,75 @@
+@import "~bulma/css/bulma.css";
+@import "~@openfonts/krona-one_latin/index.css";
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+
+
+.box-text{
+  padding: 2em 5em;
+}
+
+.navbar{
+  background-color: cyan;
+  padding: 2em 5em;
+  text-align: justify;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
+}
+
+.navbar-brand {
+  color: black;
+  font-family: 'krona one', sans-serif;
+  font-size: larger;
+  font-weight: 200;
+  background-color: pink;
+}
+
+.brand-name {
+  align-self: center;
+}
+
+.item{
+  margin-left: 2em;
+}
+
+@keyframes navbarTab {
+  0% {
+    transform: scale(1.0);
+    
+  }
+  100% {
+      transform: scale(1.1);
+    
+  }
+}
+
+
+.item:hover{ 
+  color:black !important;
+  background-color: cyan !important;
+  animation: navbarTab 1s 1;
+}
+
+
+.about-text{font-family: 'sen', sans-serif; 
+  font-weight: 500;
+  font-size: xx-large;
+  color: black;
+  z-index: 1;
+
+}
+.name{
+  font-family: 'sen', sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: xx-large;
+  position: relative;
+  z-index: 1;
+}
+
 .App {
   text-align: center;
 }
