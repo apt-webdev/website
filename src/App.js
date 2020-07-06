@@ -12,7 +12,9 @@ class App extends Component {
     return(
       <div>
         <Navbar time="morning"/>
-          <About />
+        <About />
+        
+
         
 
 

@@ -5,13 +5,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 
 
+/* BODY */
 
 .box-text{
   padding: 2em 5em;
 }
 
+
+/* NAVBAR */
+
+
 .navbar{
-  background-color: cyan;
+  /* background-color: cyan; */
   padding: 2em 5em;
   text-align: justify;
   /* font-family: 'Montserrat', sans-serif; */
@@ -24,7 +29,7 @@
   font-family: 'krona one', sans-serif;
   font-size: larger;
   font-weight: 200;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .brand-name {
@@ -33,42 +38,90 @@
 
 .item{
   margin-left: 2em;
+  color: black;
 }
 
 @keyframes navbarTab {
   0% {
-    transform: scale(1.0);
-    
+    top: 0;
   }
   100% {
-      transform: scale(1.1);
-    
+      top: -10px;
   }
 }
 
 
 .item:hover{ 
   color:black !important;
-  background-color: cyan !important;
-  animation: navbarTab 1s 1;
+  background-color: white !important;
+  animation: navbarTab 1s ease-out;
 }
 
 
-.about-text{font-family: 'sen', sans-serif; 
+
+/* ABOUT ME  */
+
+@keyframes aboutText{
+  0%{
+    right:  10px;
+    opacity: 0;
+  }
+  100%{
+    right: 0;
+    opacity: 1;
+
+  }
+}
+
+.about-text{
+  font-family: 'sen', sans-serif; 
   font-weight: 500;
   font-size: xx-large;
   color: black;
-  z-index: 1;
-
+  animation: aboutText 1s ease-in;
 }
+
 .name{
   font-family: 'sen', sans-serif;
   color: black;
   font-weight: 800;
   font-size: xx-large;
-  position: relative;
-  z-index: 1;
 }
+
+@keyframes aboutMe{
+  0% {
+    top: 10px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.social-media{
+  margin-left: 10%;
+  position: relative;
+  animation: aboutMe 1s ease-in;
+}
+
+.social-media::after{
+  content: ' ';
+  position: absolute;
+  width: 6em;
+  height: 10%;
+  top: 40%;
+  left: 20%;
+  background-color: cadetblue;
+
+}
+
+.media-icon{
+  margin-left: 2em;
+  color: black;
+  
+}
+
 
 .App {
   text-align: center;

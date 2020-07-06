@@ -24,7 +24,7 @@ class Navbar extends React.Component {
             <div>
                 <nav className='navbar' role='navigation' aria-label='main navigation'>
                     <div className='navbar-brand'>
-                        <p className="brand-name">patriciareiasilva</p>
+                        <p className="brand-name">patriciareiasilva.</p>
                         <a
                             role='button'
                             className={'navbar-burger burger'}
