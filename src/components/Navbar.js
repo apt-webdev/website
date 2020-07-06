@@ -47,6 +47,9 @@ class Navbar extends React.Component {
                                     Skills
                                 </a>
                                 <a href='/' className='item navbar-item'>
+                                    Works
+                                </a>
+                                <a href='/' className='item navbar-item'>
                                     Collabs
                                 </a>
                                 <a href='/' className='item navbar-item'>

@@ -4,8 +4,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaBehance } from 'react-icons/fa';
 
-
-
 class About extends React.Component {
     render() {
         return (
@@ -26,6 +24,9 @@ class About extends React.Component {
                             <FaInstagram/>
                         </a>
                     </div>
+                </div>
+                <div className="pictures">
+                    <img src="./me1.png" alt="me"/>
                 </div>
             </div>
         );

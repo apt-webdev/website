@@ -8,7 +8,7 @@
 /* BODY */
 
 .box-text{
-  padding: 2em 5em;
+  margin: 2em 5em;
 }
 
 
@@ -81,7 +81,7 @@
   animation: aboutText 1s ease-in;
 }
 
-.name{
+.name {
   font-family: 'sen', sans-serif;
   color: black;
   font-weight: 800;
@@ -103,6 +103,7 @@
   margin-left: 10%;
   position: relative;
   animation: aboutMe 1s ease-in;
+  margin-bottom: 7em;
 }
 
 .social-media::after{
@@ -119,6 +120,54 @@
 .media-icon{
   margin-left: 2em;
   color: black;
+  
+}
+
+.pictures{
+  width: 70%;
+  margin: auto;
+  
+
+}
+
+
+/* SKILLS */
+.title{
+  font-family: 'sen', sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: xx-large;
+  margin-top: 4em;
+}
+
+.skills{
+  list-style-type: circle;
+  padding: 2em 5em;
+  text-align: justify;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
+  color: black;
+  
+}
+
+/* WORKS */
+.works-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.work-item{
+  background-color: #9dcbdc ;
+  /* #a7d5d2; */
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
+  color: black;
+  border-radius: 10%;
+  width: 15em;
+  height: 15em;
+  margin: 2em 2em ;
+  padding: 2em 2em;
   
 }
 
@@ -161,3 +210,4 @@
     transform: rotate(360deg);
   }
 }
+

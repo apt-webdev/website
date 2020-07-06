@@ -4,6 +4,8 @@ import './App.css';
 import 'bulma/css/bulma.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Skills from './components/Skills';
+import Works from './components/Works';
 
 class App extends Component {
 
@@ -13,11 +15,8 @@ class App extends Component {
       <div>
         <Navbar time="morning"/>
         <About />
-        
-
-        
-
-
+        <Skills />
+        <Works />
       </div>
     );
   }
