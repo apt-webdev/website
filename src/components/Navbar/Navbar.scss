@@ -1,0 +1,45 @@
+/* NAVBAR */
+
+
+.navbar{
+    /* background-color: cyan; */
+    padding: 2em 5em;
+    text-align: justify;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+  }
+  
+  .navbar-brand {
+    color: black;
+    font-family: 'krona one', sans-serif;
+    font-size: larger;
+    font-weight: 200;
+    /* background-color: pink; */
+  }
+  
+  .brand-name {
+    align-self: center;
+  }
+  
+  .item{
+    margin-left: 2em;
+    color: black;
+  }
+  
+  @keyframes navbarTab {
+    0% {
+      top: 0;
+    }
+    100% {
+        top: -10px;
+    }
+  }
+  
+  
+  .item:hover{ 
+    color:black !important;
+    background-color: white !important;
+    animation: navbarTab 1s ease-out;
+  }
+  

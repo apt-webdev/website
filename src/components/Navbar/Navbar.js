@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Navbar.scss';
 // import { render } from '@testing-library/react';
 
 class Navbar extends React.Component {

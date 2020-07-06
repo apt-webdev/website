@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaBehance } from 'react-icons/fa';
-
+import './About.scss';
 class About extends React.Component {
     render() {
         return (

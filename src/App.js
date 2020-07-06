@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-import './App.css';
+import { useMediaQuery } from 'react-responsive';
+// import 'styles/_colors.scss';
+import './App.scss';
 import 'bulma/css/bulma.css';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Skills from './components/Skills';
-import Works from './components/Works';
+import Navbar from './components/Navbar/Navbar';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Works from './components/Works/Works';
 
 class App extends Component {
 

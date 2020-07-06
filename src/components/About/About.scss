@@ -1,0 +1,70 @@
+@keyframes aboutText{
+    0%{
+      right:  10px;
+      opacity: 0;
+    }
+    100%{
+      right: 0;
+      opacity: 1;
+  
+    }
+  }
+  
+  .about-text{
+    font-family: 'sen', sans-serif; 
+    font-weight: 500;
+    font-size: 2em;
+    color: black;
+    animation: aboutText 1s ease-in;
+  }
+  
+  .name {
+    font-family: 'sen', sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 2em;
+  }
+  
+  @keyframes aboutMe{
+    0% {
+      top: 10px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  
+  .social-media{
+    margin-left: 10%;
+    position: relative;
+    animation: aboutMe 1s ease-in;
+    margin-bottom: 7em;
+  }
+  
+  .social-media::after{
+    content: ' ';
+    position: absolute;
+    width: 6em;
+    height: 10%;
+    top: 40%;
+    left: 20%;
+    background-color: cadetblue;
+  
+  }
+  
+  .media-icon{
+    margin-left: 2em;
+    color: black;
+    
+  }
+  
+  .pictures{
+    width: 70%;
+    margin: auto;
+    
+  
+  }
+  
+  
