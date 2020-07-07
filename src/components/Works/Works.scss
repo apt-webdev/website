@@ -1,6 +1,6 @@
 .works-list{
-    flex-flow: column wrap;
-    justify-content: space-between;
+    display: flex;
+    flex-flow:  wrap;
   }
   .work-item{
     background-color: #9dcbdc ;
