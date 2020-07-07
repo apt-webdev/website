@@ -3,11 +3,14 @@
 
 .navbar{
     /* background-color: cyan; */
-    padding: 2em 5em;
+    padding: 1.5em 5%;
     text-align: justify;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Sen', sans-serif;
     font-weight: 400;
+    // border: 1px solid white;
+    // box-shadow: 2px 2px 20px 0px gray;
+   
   }
   
   .navbar-brand {
@@ -40,6 +43,6 @@
   .item:hover{ 
     color:black !important;
     background-color: white !important;
-    animation: navbarTab 1s ease-out;
+    animation: navbarTab 1s ease-out forwards;
   }
   

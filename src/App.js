@@ -7,6 +7,10 @@ import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
+import Contact from './components/Contact/Contact';
+import Collabs from './components/Collabs/Collabs';
+import Footer from './components/Footer/Footer';
+
 
 class App extends Component {
 
@@ -18,6 +22,9 @@ class App extends Component {
         <About />
         <Skills />
         <Works />
+        <Collabs />
+        <Contact />
+        <Footer />
       </div>
     );
   }

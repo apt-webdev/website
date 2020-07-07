@@ -6,7 +6,7 @@ import './Works.scss';
 class Works extends React.Component {
     render() {
         return (
-            <div>
+            <div className="navbar-tab" id="my-works">
                 <h1 className="title box-text">Works</h1>
                 <div className="works-list box-text">
                     <div className="work-item">

@@ -7,7 +7,7 @@ import './About.scss';
 class About extends React.Component {
     render() {
         return (
-            <div>
+            <div className="navbar-tab" id="about-me">
                 <h1 className="about-text box-text">Hello,<br/> my name is <br/> <span className="name">Patrícia Areias Silva</span>. <br/>A Font End Developer <br/> and a dreamer.</h1>
                 <div className="social-media"> 
                     <div className="animated-bar">

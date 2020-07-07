@@ -18,12 +18,16 @@ class Navbar extends React.Component {
             name: e.target.value
         })
     }
+    dropdownContent(params) {
+        alert("click burger!!");
+        
+    }
 
 
     render() {
         return (
-            <div>
-                <nav className='navbar' role='navigation' aria-label='main navigation'>
+            <div className="" id="navbar-component">
+                <nav className='navbar is-transparent is-fixed-top' role='navigation' aria-label='main navigation'>
                     <div className='navbar-brand'>
                         <p className="brand-name">patriciareiasilva.</p>
                         <a
@@ -32,6 +36,7 @@ class Navbar extends React.Component {
                             aria-label='menu'
                             aria-expanded='false'
                             data-target='navbarBasicExample'
+                            onClick={this.dropdownContent}
                         >
                             <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span>
@@ -41,19 +46,19 @@ class Navbar extends React.Component {
                     <div id='navbarBasicExample' className='navbar-menu'>
                         <div className='navbar-end'>
                             <div className='navbar-item'>
-                                <a href='/' className='item navbar-item'>
+                                <a href='#about-me' className='item navbar-item'>
                                     About
                                 </a>
-                                <a href='/' className='item navbar-item'>
+                                <a href='#my-skills' className='item navbar-item'>
                                     Skills
                                 </a>
-                                <a href='/' className='item navbar-item'>
+                                <a href='#my-works' className='item navbar-item'>
                                     Works
                                 </a>
-                                <a href='/' className='item navbar-item'>
+                                <a href='#my-collabs' className='item navbar-item'>
                                     Collabs
                                 </a>
-                                <a href='/' className='item navbar-item'>
+                                <a href='#my-contact' className='item navbar-item'>
                                     Contact
                                 </a>
                             </div>

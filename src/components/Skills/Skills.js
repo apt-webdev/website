@@ -7,7 +7,7 @@ import './Skills.scss';
 class Skills extends React.Component {
     render() {
         return (
-            <div>
+            <div className="navbar-tab" id="my-skills">
                 <h1 className="title box-text">Skills</h1>
                 <ul className="skills box-text">
                     <li>
