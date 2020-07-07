@@ -5,8 +5,7 @@ import './Navbar.scss';
 class Navbar extends React.Component {
     constructor(props) {
         super(props);
-        this. state= {
-            // comment
+        this.state= {
             name: '', 
             greeting: `good ${this.props.time}`
         }
