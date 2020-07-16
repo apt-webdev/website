@@ -10,6 +10,7 @@ import Works from './components/Works/Works';
 import Contact from './components/Contact/Contact';
 import Collabs from './components/Collabs/Collabs';
 import Footer from './components/Footer/Footer';
+import { ReactComponent as Logo} from './name.svg';
 
 
 class App extends Component {
@@ -18,13 +19,18 @@ class App extends Component {
   render(){
     return(
       <div>
-        <Navbar time="morning"/>
-        <About />
-        <Skills />
-        <Works />
-        <Collabs />
-        <Contact />
-        <Footer />
+        <section id="welcome_page">
+          <Logo />
+        </section>
+        <section id="pages">
+          <Navbar time="morning"/>
+          <About />
+          <Skills />
+          <Works />
+          <Collabs />
+          <Contact />
+          <Footer />
+        </section>
       </div>
     );
   }

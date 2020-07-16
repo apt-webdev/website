@@ -14,7 +14,7 @@ class Skills extends React.Component {
                         JavaScript
                     </li>
                     <li>
-                        HTML and CSS
+                        HTML5 and CSS
                     </li>
                     <li>
                         React
