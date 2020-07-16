@@ -10,7 +10,7 @@ class About extends React.Component {
             <div className="navbar-tab" id="about-me">
                 <h1 className="about-text box-text">Hello,<br/> my name is <br/> <span className="name">Patrícia Areias Silva</span>. <br/>A Font End Developer <br/> and a dreamer.</h1>
                 <div className="social-media"> 
-                    <div className="animated-bar">
+                    {/* <div className="animated-bar"> */}
                         <a className="media-icon" href="https://github.com/apt-webdev" target="_black">
                             <FaGithub/>
                         </a>
@@ -23,7 +23,7 @@ class About extends React.Component {
                         <a className="media-icon" href="http://www.instagram.com/patriciareiasilva/" target="_black">
                             <FaInstagram/>
                         </a>
-                    </div>
+                    {/* </div> */}
                 </div>
                 <div className="pictures">
                     <img src="./me1.png" alt="me"/>

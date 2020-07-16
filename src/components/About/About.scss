@@ -11,7 +11,10 @@
   }
   
   .about-text{
-    margin: 5em 4em;
+    // margin: 5em 4em;
+    margin-top: 5em;
+    margin-left: 10%;
+    margin-bottom: 2em;
     font-family: 'sen', sans-serif; 
     font-weight: 500;
     font-size: 6vmin;
@@ -38,34 +41,43 @@
   }
   
   .social-media{
-    margin-left: 10%;
-    position: relative;
     animation: aboutMe 1s ease-in;
     margin-bottom: 7em;
-  }
-  
-  .social-media::after{
-    content: ' ';
-    position: absolute;
-    width: 6em;
-    height: 10%;
-    top: 40%;
-    left: 20%;
-    background-color: cadetblue;
-  
+    text-align: center;
+
+   
   }
   
   .media-icon{
-    margin-left: 2em;
     color: black;
-    
+    align-self: center;
+    &:not(:nth-child(1)){
+      margin-left: 4em;
+    }
   }
   
   .pictures{
     width: 70%;
     margin: auto;
-    
-  
   }
-  
+
+  @media only screen and (max-width: 501px ){
+   
+    .about-text{
+      font-size: 5vmin;
+      margin-top: 29%;
+      margin-left: 10%;
+      margin-bottom: 10%;
+      // margin: 5em 4em;
+
+    }
+    .name {
+      font-size: 5vmin;
+    }
+
+    .media-icon:not(:nth-child(1)){
+      margin-left: 2em;
+    }
+    
+  }
   

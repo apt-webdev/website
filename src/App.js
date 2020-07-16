@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { useMediaQuery } from 'react-responsive';
+// import { useMediaQuery } from 'react-responsive';
 // import 'styles/_colors.scss';
 import './App.scss';
 import 'bulma/css/bulma.css';

@@ -2,7 +2,7 @@
 
 
 .navbar{
-    /* background-color: cyan; */
+    // background-color: cyan; 
     padding: 1.5em 5%;
     text-align: justify;
     /* font-family: 'Montserrat', sans-serif; */
@@ -10,6 +10,7 @@
     font-weight: 400;
     // border: 1px solid white;
     // box-shadow: 2px 2px 20px 0px gray;
+   
    
   }
   
@@ -22,7 +23,7 @@
   }
   
   .brand-name {
-    align-self: center;
+    align-self: center; 
   }
   
   .item{
@@ -44,5 +45,16 @@
     color:black !important;
     background-color: white !important;
     animation: navbarTab 1s ease-out forwards;
+  }
+
+  @media only screen and (max-width: 501px ){
+   
+    .navbar{
+      font-size: 3vmin;
+    }
+
+    .navbar-brand {
+      font-size: 3vmin;
+    }
   }
   
