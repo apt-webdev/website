@@ -1,29 +1,49 @@
-/* NAVBAR */
+@import '../../index.scss';
 
 
-.navbar{
-    // background-color: cyan; 
-    padding: 1.5em 5%;
+  // @keyframes navbar-shadow{
+  //   from{
+  //     opacity: 0;
+  //   }
+  //   to{
+  //     opacity: 1;
+  //   }
+  // }
+
+  .scroll-shadow{
+    -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    // animation: navbar-shadow 1s ease-in forwards;
+
+  } 
+
+  .navbar{
+    padding: 0.5em 5%;
     text-align: justify;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Sen', sans-serif;
     font-weight: 400;
-    // border: 1px solid white;
-    // box-shadow: 2px 2px 20px 0px gray;
-   
-   
+    
   }
   
   .navbar-brand {
     color: black;
-    font-family: 'krona one', sans-serif;
-    font-size: larger;
     font-weight: 200;
-    /* background-color: pink; */
+    font-family: 'krona one', sans-serif;
+    font-size: var( --brand-text );
+
   }
   
   .brand-name {
     align-self: center; 
+
+    @include screen-size(tablet) {
+      font-size: var(--brand-text-tablett);
+    }
+    @include screen-size(mobile) {
+      font-size: var(--brand-text-mobile);
+    }
   }
   
   .item{
@@ -47,14 +67,22 @@
     animation: navbarTab 1s ease-out forwards;
   }
 
-  @media only screen and (max-width: 501px ){
+ 
+  // @media only screen and (max-width: 501px ){
    
-    .navbar{
-      font-size: 3vmin;
-    }
+  //   .navbar{
+  //     font-size: 3vmin;
+  //   }
 
-    .navbar-brand {
-      font-size: 3vmin;
-    }
-  }
+  //   .navbar-brand {
+  //     font-size: 3vmin;
+  //   }
+  // }
   
+
+    
+  // @media only screen and (max-width: 530px){
+  //   h2 {
+  //     font-size: small;
+  //   }
+  // }
