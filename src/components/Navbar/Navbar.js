@@ -6,10 +6,30 @@ class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state= {
-            name: '', 
-            greeting: `good ${this.props.time}`
+            // name: '', 
+            // greeting: `good ${this.props.time}`, 
+            className: '', 
+            activeMenu: false,
+        };
+        // this.onChange = this.onChange.bind(this);
+    }
+
+    // state = {className: ''};
+    
+    componentDidMount(){
+        window.addEventListener('scroll', this.handlerScroll);
+    }
+
+    handlerScroll = () => {
+        if(window.pageYOffset > 0){
+            if(!this.state.className){
+                this.setState({className: 'scroll-shadow'});
+            }
+        }else{
+            if(this.state.className){
+                this.setState({className: ''});
+            }
         }
-        this.onChange = this.onChange.bind(this);
     }
 
     onChange(e) {
@@ -17,21 +37,22 @@ class Navbar extends React.Component {
             name: e.target.value
         })
     }
-    dropdownContent(params) {
-        alert("click burger!!");
-        
+
+    dropdownContent= () => {
+        if(this.state.activeMenu) 
+            this.setState({activeMenu: false});
+        else this.setState({activeMenu: true});
     }
-
-
+   
     render() {
         return (
             <div className="" id="navbar-component">
-                <nav className='navbar is-transparent is-fixed-top' role='navigation' aria-label='main navigation'>
+                <nav className={`navbar is-transparent is-fixed-top ${this.state.className}`} role='navigation' aria-label='main navigation'>
                     <div className='navbar-brand'>
                         <p className="brand-name">patriciareiasilva.</p>
                         <a
                             role='button'
-                            className={'navbar-burger burger'}
+                            className={`navbar-burger burger ${this.state.activeMenu ? 'is-active' : ''}`}
                             aria-label='menu'
                             aria-expanded='false'
                             data-target='navbarBasicExample'
@@ -42,7 +63,7 @@ class Navbar extends React.Component {
                             <span aria-hidden='true'></span>
                         </a>
                     </div>
-                    <div id='navbarBasicExample' className='navbar-menu'>
+                    <div id='navbarBasicExample' className={`navbar-menu ${this.state.activeMenu ? 'is-active' : ''} `}>
                         <div className='navbar-end'>
                             <div className='navbar-item'>
                                 <a href='#about-me' className='item navbar-item'>

@@ -19,10 +19,10 @@ class App extends Component {
   render(){
     return(
       <div>
-        <section id="welcome_page">
+        <section id="welcome-page">
           <Logo />
         </section>
-        <section id="pages">
+        <section id="content-page">
           <Navbar time="morning"/>
           <About />
           <Skills />
