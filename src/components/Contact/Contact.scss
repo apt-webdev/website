@@ -1,0 +1,20 @@
+.contacts{
+    
+    .contact-item{
+        color: black;
+        display: flex;
+        align-items: center;
+        
+        .icon-item{
+            margin: 1rem;   
+        }
+
+        a:hover{
+               border-bottom: black 1px solid;
+        }
+       
+        p{
+            color: black;
+        }
+    }
+}

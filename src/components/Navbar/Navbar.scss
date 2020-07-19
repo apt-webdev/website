@@ -37,52 +37,29 @@
   
   .brand-name {
     align-self: center; 
+    font-size: var(--brand-text-desktop);
 
     @include screen-size(tablet) {
-      font-size: var(--brand-text-tablett);
+      font-size: var(--brand-text-tablet);
     }
-    // @include screen-size(mobile) {
-    //   font-size: var(--brand-text-mobile);
-    // }
+    @include screen-size(mobile) {
+      font-size: var(--brand-text-mobile);
+    }
   }
   
   .item{
     margin-left: 2em;
     color: black;
   }
-  
-  @keyframes navbarTab {
-    0% {
-      top: 0;
-    }
-    100% {
-        top: -10px;
-    }
-  }
-  
+
   
   .item:hover{ 
     color:black !important;
     background-color: white !important;
-    animation: navbarTab 1s ease-out forwards;
+    animation: lift-up 1s ease-out forwards;
   }
 
- 
-  // @media only screen and (max-width: 501px ){
-   
-  //   .navbar{
-  //     font-size: 3vmin;
-  //   }
+  .navbar-burger{
+    border-radius: 0!important;
+  }
 
-  //   .navbar-brand {
-  //     font-size: 3vmin;
-  //   }
-  // }
-  
-
-    
-  // @media only screen and (max-width: 530px){
-  //   h2 {
-  //     font-size: small;
-  //   }
-  // }

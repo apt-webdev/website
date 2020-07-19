@@ -50,9 +50,8 @@ class Navbar extends React.Component {
                 <nav className={`navbar is-transparent is-fixed-top ${this.state.className}`} role='navigation' aria-label='main navigation'>
                     <div className='navbar-brand'>
                         <p className="brand-name">patriciareiasilva.</p>
-                        <a
-                            role='button'
-                            className={`navbar-burger burger ${this.state.activeMenu ? 'is-active' : ''}`}
+                        <button 
+                            className={`button is-white navbar-burger burger ${this.state.activeMenu ? 'is-active' : ''}`}
                             aria-label='menu'
                             aria-expanded='false'
                             data-target='navbarBasicExample'
@@ -61,7 +60,7 @@ class Navbar extends React.Component {
                             <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span>
-                        </a>
+                        </button>
                     </div>
                     <div id='navbarBasicExample' className={`navbar-menu ${this.state.activeMenu ? 'is-active' : ''} `}>
                         <div className='navbar-end'>
@@ -75,9 +74,9 @@ class Navbar extends React.Component {
                                 <a href='#my-works' className='item navbar-item'>
                                     Works
                                 </a>
-                                <a href='#my-collabs' className='item navbar-item'>
+                                {/* <a href='#my-collabs' className='item navbar-item'>
                                     Collabs
-                                </a>
+                                </a> */}
                                 <a href='#my-contact' className='item navbar-item'>
                                     Contact
                                 </a>
