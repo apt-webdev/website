@@ -1,87 +1,81 @@
+@import '../../index.scss';
 
-@keyframes aboutText{
-    0%{
-      right:  10px;
-      opacity: 0;
-    }
-    100%{
-      right: 0;
-      opacity: 1;
-  
-    }
-  }
-  
+
+  // @keyframes aboutText{
+  //     0%{
+  //       right:  10px;
+  //       opacity: 0;
+  //     }
+  //     100%{
+  //       right: 0;
+  //       opacity: 1;
+  //     }
+  //   
+
+  // @keyframes aboutMe{
+  //   0% {
+  //     top: 10px;
+  //     opacity: 0;
+  //   }
+  //   100% {
+  //     top: 0;
+  //     opacity: 1;
+  //   }
+  // }
+ 
   .about-text{
-    // margin: 5em 4em;
-    margin-top: 5em;
-    margin-left: 10%;
-    margin-bottom: 2em;
+    margin-top: 5em; // + navbar offset
     font-family: 'sen', sans-serif; 
-    font-weight: 500;
+    font-weight: medium; //500
     font-size: 6vmin;
     color: black;
-    animation: aboutText 1s ease-in;
-  }
-  
-  .name {
-    font-family: 'sen', sans-serif;
-    color: black;
-    font-weight: 800;
-    font-size: 7vmin;
-  }
-  
-  @keyframes aboutMe{
-    0% {
-      top: 10px;
-      opacity: 0;
-    }
-    100% {
-      top: 0;
-      opacity: 1;
+    // animation: aboutText 1s forwards ease-in 5s;
+    padding-bottom: 6vmin;
+    
+    .name {
+      font-weight: bold; //800
+      font-size: 7vmin;
     }
   }
   
-  .social-media{
-    animation: aboutMe 1s ease-in;
-    margin-bottom: 6em;
-    text-align: center;
-
-   
-  }
   
-  .media-icon{
-    color: black;
-    align-self: center;
-    &:not(:nth-child(1)){
-      margin-left: 4em;
-    }
-  }
   
   .pictures{
-    width: 70%;
+    width: 100%;
     margin: auto;
-    margin-bottom: 4em;
+    // margin-bottom: 4em;
   }
 
 
   .plain-text{
-    font-size: 20px;
-    color: black;
+    // font-size: 2vmin;
+    // color: black;
     font-weight: 400;
-    // width: 70%;
-    margin-left: 30%;
-    margin-right: 30%;
     text-align: justify;
-   
+    font-family: 'Sen', sans-serif; 
 
   }
+
+  .about-me{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+
+    @include screen-size(tablet) {
+      grid-template-columns: 100%;
+    }
+    @include screen-size(mobile) {
+      grid-template-columns: 100%;
+    }
+  }
+
   @media only screen and (max-width: 501px ){
    
     .about-text{
       font-size: 5vmin;
       margin-top: 29%;
-      margin-left: 10%;
-      margin-bottom: 10%;
+      // margin-left: 10%;
+      // margin-bottom: 10%;
       // margin: 5em 4em;
 
     }
@@ -89,12 +83,6 @@
       font-size: 5vmin;
     }
 
-    .media-icon:not(:nth-child(1)){
-      margin-left: 2em;
-    }
-    .plain-text{
-      margin: 2em;
-    }
     
   }
   

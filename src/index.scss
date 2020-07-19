@@ -24,12 +24,39 @@ code {
   --icon-hover-color: gray;
 
   --normal-text: 2vmin;
-  --brand-text-tablet: calc(var(--normal-text) * 1.5);
-  --brand-text-mobile: calc(var(--normal-text) * 1.2);
+  --brand-text-desktop: calc(var(--normal-text) * 1.1);
+  --brand-text-tablet: calc(var(--normal-text) * 1.2);
+  --brand-text-mobile: calc(var(--normal-text) * 1.25);
   --brand-text: 2vmin;
 
-}
+  section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .div-content{
+    margin-bottom: 8vmin;
+    
+  }
+  .regular-text{
+    text-align: justify;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    // color: black;
 
+  }
+
+  // .title-text{
+  //   margin-top: 5em; // + navbar offset
+  //   font-family: 'sen', sans-serif; 
+  //   font-weight: medium; //500
+  //   font-size: 6vmin;
+  //   color: black;
+  // }
+
+ 
+}
 
 // set up mixins for responsive design
 @mixin screen-size($size) {
@@ -44,4 +71,14 @@ code {
   }
 }
 
+
+//animation
+@keyframes lift-up {
+  0% {
+    top: 0;
+  }
+  100% {
+      top: -10px;
+  }
+}
 

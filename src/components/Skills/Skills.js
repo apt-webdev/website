@@ -7,36 +7,45 @@ import './Skills.scss';
 class Skills extends React.Component {
     render() {
         return (
-            <div className="navbar-tab" id="my-skills">
-                <h1 className="title box-text">Skills</h1>
-                <ul className="skills box-text">
-                    <li>
-                        JavaScript
-                    </li>
-                    <li>
-                        HTML5 and CSS
-                    </li>
-                    <li>
-                        React
-                    </li>
-                    <li>
-                        Vue.js
-                    </li>
-                    <li>
-                        Node.js
-                    </li>
-                    <li>
-                        Bulma and Bootstrap
-                    </li>
-                    <li>
-                        Git
-                    </li>
-                    <li>
-                        PHP and SQLite3
-                    </li>
-                </ul>
+            <section className="navbar-tab" id="my-skills">
+                <div className="div-content">
+                    <h1 className="title ">Skills</h1>
+                </div>
+                <div className="div-content">
+                    <div className="div-content">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aliquam error, est odio numquam modi officiis tempora molestias nesciunt! Corrupti consequatur laborum velit vitae adipisci quod nemo maxime autem quam!
 
-            </div>
+                    </div>
+
+                    <ul className="skills">
+                        <li>
+                            JavaScript
+                        </li>
+                        <li>
+                            HTML5 and CSS
+                        </li>
+                        <li>
+                            React
+                        </li>
+                        <li>
+                            Vue.js
+                        </li>
+                        <li>
+                            Node.js
+                        </li>
+                        <li>
+                            Bulma and Bootstrap
+                        </li>
+                        <li>
+                            Git
+                        </li>
+                        <li>
+                            PHP and SQLite3
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
         );
     }
 }
