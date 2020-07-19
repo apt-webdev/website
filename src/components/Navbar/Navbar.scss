@@ -37,13 +37,13 @@
   
   .brand-name {
     align-self: center; 
-    font-size: var(--brand-text-desktop);
+    // font-size: var(--brand-text-desktop);
 
     @include screen-size(tablet) {
-      font-size: var(--brand-text-tablet);
+      // font-size: var(--brand-text-tablet);
     }
     @include screen-size(mobile) {
-      font-size: var(--brand-text-mobile);
+      // font-size: var(--brand-text-mobile);
     }
   }
   

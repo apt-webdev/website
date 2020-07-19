@@ -65,19 +65,19 @@ class Navbar extends React.Component {
                     <div id='navbarBasicExample' className={`navbar-menu ${this.state.activeMenu ? 'is-active' : ''} `}>
                         <div className='navbar-end'>
                             <div className='navbar-item'>
-                                <a href='#about-me' className='item navbar-item'>
+                                <a href='#about-me' className='item navbar-item' onClick={this.dropdownContent}>
                                     About
                                 </a>
-                                <a href='#my-skills' className='item navbar-item'>
+                                <a href='#my-skills' className='item navbar-item' onClick={this.dropdownContent}>
                                     Skills
                                 </a>
-                                <a href='#my-works' className='item navbar-item'>
-                                    Works
+                                <a href='#my-works' className='item navbar-item' onClick={this.dropdownContent}>
+                                    Work
                                 </a>
                                 {/* <a href='#my-collabs' className='item navbar-item'>
                                     Collabs
                                 </a> */}
-                                <a href='#my-contact' className='item navbar-item'>
+                                <a href='#my-contact' className='item navbar-item' onClick={this.dropdownContent}>
                                     Contact
                                 </a>
                             </div>

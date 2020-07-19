@@ -1,18 +1,19 @@
-.title{
-    font-family: 'sen', sans-serif;
-    color: black;
-    font-weight: 800;
-    font-size: xx-large;
-    margin-top: 4em;
-  }
-  
+@import '../../index.scss';
+
   .skills{
     list-style-type: circle;
-    padding: 2em 5em;
+    padding-top: 2em;
+    padding-left: 5em;
+    
     text-align: justify;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Sen', sans-serif;
     font-weight: 400;
     color: black;
-    
+    line-height: 30px;
+
+    @include screen-size(mobile){
+      padding-top: 1em;
+      padding-left: 2em;
+    }
   }

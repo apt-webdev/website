@@ -1,19 +1,22 @@
 .works-list{
     display: flex;
     flex-flow:  wrap;
+    background-image: url('../../me3.png') ;
+    justify-content: space-evenly; 
   }
   .work-item{
-    background-color: #9dcbdc ;
+    background-color:inherit; 
     /* #a7d5d2; */
     font-family: 'Sen', sans-serif;
     font-weight: 400;
     color: black;
-    border-radius: 10%;
+    border-radius: 5%;
     width: 15em;
     height: 15em;
     margin: 2em 2em ;
     padding: 2em 2em;
-    
+    // filter: blur(10px);
+   
   }
   
   

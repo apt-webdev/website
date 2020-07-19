@@ -11,7 +11,7 @@ class Contact extends React.Component {
                     <h2 className="title">Contact Me</h2>
                 </div>
                 <div className="div-content">
-                    <p className="regular-text">
+                    <p className="plain-text">
                         Let's build something together.<br/>
                         Feel free to get in touch if you want to know more about my path, or just want to connect.<br/> 
                     </p>
@@ -21,16 +21,16 @@ class Contact extends React.Component {
                     <div className="contact-item">
                         <FaEnvelope className="icon-item"/>
                         <a href="mailto:patriciareiasilva@gmail.com">
-                        <p className="regular-text">patriciareiasilva@gmail.com</p> 
+                        <p className="plain-text">patriciareiasilva@gmail.com</p> 
                         </a>
                     </div >
                     <div  className="contact-item">
                         <FaUniversity className="icon-item"/> 
-                        <p className="regular-text "> University of Porto</p>
+                        <p className="plain-text "> University of Porto</p>
                     </div>
                     <div  className="contact-item">
                         <FaMapPin className="icon-item"/> 
-                        <p className="regular-text ">Porto, Portugal</p>
+                        <p className="plain-text ">Porto, Portugal</p>
 
                     </div>
                 </div>

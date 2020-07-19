@@ -2,8 +2,8 @@
 
 
 .social-media{
-    // animation: aboutMe 1s ease-in;
     text-align: center;
+    padding: 2.5vmin;
 
   }
   
@@ -11,10 +11,9 @@
     color: black;
     align-self: center;
     &:not(:nth-child(1)){
-      margin-left: 4em;
+      margin-left: 8vmin;
     }
     &:hover{
-      // animation: lift-up 1s ease-out forwards;
       color: cadetblue;
     }
   }
