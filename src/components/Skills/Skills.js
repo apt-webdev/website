@@ -13,11 +13,11 @@ class Skills extends React.Component {
                 </div>
                 <div className="div-content">
                     <div className="div-content plain-text">
-                        With my studies, I have gained a solid undertanding of computer science, taking a scientific and practical approach to computation and its applications.
+                        Throughout my college years, I have gained a solid understanding of computer science, with a scientific and practical approach to computation and its applications.
                         <br/>
-                        I started to strive to deepen my knowledge in the area of ​​web development in my free time. 
+                        Lately I dedicate a large part of my free time to the web development area.
                         <br/>
-                        There is a list of what I have been working on.
+                        Some skills I master are listed below:
                     </div>
 
                     <ul className="skills ">

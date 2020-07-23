@@ -16,9 +16,9 @@ class Works extends React.Component {
                     <h1 className="title">Work</h1>
                 </div>
                 <div className="div-content plain-text">
-                    I believe in combination with humbleness, passion and hard work for a successful pathway.
+                    I believe in a combination of humbleness, passion and hard work for a successful pathway.
                     <br/>
-                    Go check some of my recent projects below.
+                    Check some of my recent projects below.
                 </div>
                 <div className="div-content works-list plain-text">
                     <Project name={'Portfolio Site'} image={'./portfolio.png'} desc={'A single-page application using react and npm packages, making an efficient use of react components and bulma templates.'} label1={'react.js'}  label2={'npm'} label3={'netlify'} date={'July 23, 2020'} ibe={'behance'} igit={'github'} behref={'https://www.behance.net/gallery/101210221/patriciareiasilva'} githref={'https://github.com/apt-webdev/website'} />
