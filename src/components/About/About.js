@@ -25,7 +25,6 @@ class About extends React.Component {
                         I am very proud of my journey, and I believe that the best is yet to come. 
                         My ambitions are to grow as a front-end developer and raise my standards for new challenges; 
                         Learn more about user interface designs and new programming technologies to set up web applications to a new level of usability. 
-                        {/* <br/> */}
                     </p>
                     <p className="plain-text">
                         But there is more, I like to be part of the community around me and actively contribute to it.
