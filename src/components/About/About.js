@@ -11,7 +11,7 @@ class About extends React.Component {
         return (
             <section className="navbar-tab" id="about-me">
                 <div className="div-content">
-                    <h1 className="intro-text">Hello,<br/> my name is <br/> <span className="name">Patrícia Areias Silva</span>. <br/>A Font End Developer <br/> and a dreamer.</h1>
+                    <h1 className="intro-text">Hello,<br/> my name is <br/> <span className="name">Patrícia Areias Silva</span>. <br/>A Front End Developer <br/> and a dreamer.</h1>
                 </div>
                 <SocialMedia />
                 
