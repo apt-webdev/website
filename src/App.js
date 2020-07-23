@@ -9,8 +9,6 @@ import Footer from './components/Footer/Footer';
 import { ReactComponent as Logo} from './name.svg';
 import './App.scss';
 import 'bulma/css/bulma.css';
-// import { useMediaQuery } from 'react-responsive';
-// import 'styles/_colors.scss';
 
 
 class App extends Component {
