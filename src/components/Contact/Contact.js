@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.scss';
-import { FaMailBulk, FaMailchimp, FaLocationArrow, FaEnvelope, FaMapPin, FaMapMarkedAlt, FaUniversity } from 'react-icons/fa';
+import { FaEnvelope, FaMapPin, FaUniversity } from 'react-icons/fa';
 
 
 class Contact extends React.Component {

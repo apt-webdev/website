@@ -13,9 +13,11 @@ class Skills extends React.Component {
                 </div>
                 <div className="div-content">
                     <div className="div-content plain-text">
-                        With my studies, I've gained a solid indertanding of computer science, taking a scientific and practical approach to computation and its applications.
+                        With my studies, I have gained a solid undertanding of computer science, taking a scientific and practical approach to computation and its applications.
                         <br/>
-                        I started to strive to deepen my knowledge in the area of ​​web development in my free time. Below I've a list of what I have been working on.
+                        I started to strive to deepen my knowledge in the area of ​​web development in my free time. 
+                        <br/>
+                        There is a list of what I have been working on.
                     </div>
 
                     <ul className="skills ">

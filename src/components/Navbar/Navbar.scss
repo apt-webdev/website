@@ -31,20 +31,13 @@
     color: black;
     font-weight: 200;
     font-family: 'krona one', sans-serif;
-    font-size: var( --brand-text );
-
+    font-size: var(--normal-text);
   }
   
   .brand-name {
     align-self: center; 
-    // font-size: var(--brand-text-desktop);
-
-    @include screen-size(tablet) {
-      // font-size: var(--brand-text-tablet);
-    }
-    @include screen-size(mobile) {
-      // font-size: var(--brand-text-mobile);
-    }
+    font-size: 10px;
+    font-size: 2.5vmin;
   }
   
   .item{

@@ -1,9 +1,10 @@
 import React from 'react';
 import './SocialMedia.scss';
-import { FaGithub, FaCodepen } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaBehance } from 'react-icons/fa';
 // import { FaInstagram } from 'react-icons/fa';
+// import { FaCodepen } from 'react-icons/fa';
 
 
 class SocialMedia extends React.Component {
@@ -19,9 +20,9 @@ class SocialMedia extends React.Component {
                 <a className="media-icon" href="https://github.com/apt-webdev" target="_black">
                     <FaGithub/>
                 </a>
-                <a className="media-icon" href="https://www.behance.net/patriciare7ba2" target="_black">
+                {/* <a className="media-icon" href="https://www.behance.net/patriciare7ba2" target="_black">
                     <FaCodepen/>
-                </a>
+                </a> */}
                 {/* <a className="media-icon" href="http://www.instagram.com/patriciareiasilva/" target="_black">
                     <FaInstagram/>
                 </a> */}

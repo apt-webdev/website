@@ -1,0 +1,80 @@
+@import '../../index.scss';
+.work-item{
+    // background-color: cadetblue; 
+    /* #a7d5d2; */
+    // font-family: 'Sen', sans-serif;
+    // font-weight: 400;
+    // color: black;
+    // border-radius: 5%;
+    // width: 15em;
+    // height: 15em;
+    // margin: 2em 2em ;
+    // padding: 2em 2em;
+    // filter: blur(10px);
+
+    margin: 1%; 
+    max-width: 30%;
+
+    @include screen-size(tablet){
+      max-width: 100%;
+    }
+
+    @include screen-size(mobile){
+      max-width: 100%;
+    }
+
+    @keyframes hover-project{
+      0%{
+        transform: scale(1);
+      }
+      100%{
+        transform: scale(1.04);
+
+      }
+    }
+    &:hover{
+      animation: hover-project .5s ease-in forwards;
+    }
+
+    &.box{
+      padding: 2rem;
+      &:last-child{
+        margin-bottom: 1.5rem;
+      }
+    }
+    
+    .media{
+
+      .content:not(:last-child){
+        margin-bottom: 1.5rem;
+      }
+    }
+    
+    .empty-tag{
+      display: none;
+    }
+      
+    
+
+    .date-content{
+      // margin-left: .5rem;
+      .icon-calendar{
+        margin-right: .5rem;
+        // margin-left: .5rem;
+        vertical-align: text-bottom;
+      }
+    }
+
+    .image{
+      // background-color: grey;
+      display: block;
+
+    }
+
+    .level-item{
+      color: gray ;
+      :hover{
+        color: cadetblue;
+      }
+    }
+  }

@@ -19,16 +19,18 @@ class About extends React.Component {
                     <img src="./me1.png" alt="me"/>
                 </div>
                 <div className="div-content text-about-me">
-                    <p className="plain-text"> I'm in my senior year of the science college, styding master's degree in network and information systems engineering.
+                    <p className="plain-text"> 
+                        I am in my senior year of the science college, studying master's degree in network and information systems engineering. 
                         <br/><br/>
-                        I take every oportunity that 
-                        So I'm very proud of my journey, but I believe that the best is yet to come.
-                        So My ambitions are to grown as a front-end developer and raise my standards for new challanges.
-                        We need more people helping more people and I do not want to die without someone remenber my name.
-
+                        I am very proud of my journey, and I believe that the best is yet to come. 
+                        My ambitions are to grow as a front-end developer and raise my standards for new challenges. 
+                        Learn more about user interface designs and new programming technologies to set up web applications to a new level of usability. 
+                        {/* <br/> */}
                     </p>
-                    {/* <p className="plain-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti sequi ad laborum magni illum quidem eos culpa eius impedit. Voluptates obcaecati suscipit sint eum nesciunt officia velit perspiciatis quis?</p> */}
-                    <p className="plain-text">I have develop a criative mind and prepare myselt to new chalanges.
+                    <p className="plain-text">
+                        But there is more, I like to be part of the community around me and actively contribute to it. 
+                        So, I love to connect to people and make new friends. I also love sports, like basketball and soccer. 
+                        Finally, I love to travel, read books, see old films, go out with friends and visit art galleries.
                     </p>
                 </div>
             </section>
