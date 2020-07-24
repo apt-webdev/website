@@ -13,7 +13,7 @@ class Contact extends React.Component {
                 <div className="div-content">
                     <p className="plain-text">
                         Let's build something together.<br/>
-                        Feel free to get in touch if you want to know more about my path, or just want to connect.<br/> 
+                        Feel free to reach out if you want to know more about my career, or just want to connect.<br/> 
                     </p>
                 </div>
                 <div className="contacts">

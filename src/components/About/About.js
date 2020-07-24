@@ -20,16 +20,14 @@ class About extends React.Component {
                 </div>
                 <div className="div-content text-about-me">
                     <p className="plain-text"> 
-                        I am in my senior year of the Master's degree in network and information systems engineering.
+                        I am a senior at the Master's degree in network and information systems engineering.
                         <br/><br/>
-                        I am very proud of my journey, and I believe that the best is yet to come. 
-                        My ambitions are to grow as a front-end developer and raise my standards for new challenges; 
-                        Learn more about user interface designs and new programming technologies to set up web applications to a new level of usability. 
+                        I am very proud of academic and carreer paths,  though I believe the best is yet to come. 
+                        Raising my standards for new challenges, I aspire to grow as a front end developer while learning more about using interface designs and new programming technologies to set up web applications on a new level of usability.
                     </p>
                     <p className="plain-text">
-                        But there is more, I like to be part of the community around me and actively contribute to it.
-                        So, I love to connect to people and make new friends. I am also enthusiastic with sports, like basketball and soccer. 
-                        Finally, I love to travel, read books, see old films, go out with friends and visit art galleries.
+                        At my hometown, I am committed to various extracurricular activities and involved into the community around me. 
+                        I am a creative and motivated person, and I have a passion for basketball and soccer, traveling, literature and art.
                     </p>
                 </div>
             </section>
