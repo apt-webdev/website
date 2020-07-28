@@ -16,7 +16,7 @@ class About extends React.Component {
                 <SocialMedia />
                 
                 <div className="div-content pictures">
-                    <img src="./me1.png" alt="me"/>
+                    <img src="./pictures/me1.png" alt="me"/>
                 </div>
                 <div className="div-content text-about-me">
                     <p className="plain-text"> 

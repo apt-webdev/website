@@ -21,13 +21,13 @@ class Works extends React.Component {
                     Check out some of my latest projects below.
                 </div>
                 <div className="div-content works-list plain-text">
-                    <Project name={'Portfolio Site'} image={'./portfolio.png'} desc={'A single-page application using react and npm packages, making an efficient use of react components and bulma templates.'} label1={'react.js'}  label2={'npm'} label3={'netlify'} date={'July 23, 2020'} ibe={'behance'} igit={'github'} behref={'https://www.behance.net/gallery/101210221/patriciareiasilva'} githref={'https://github.com/apt-webdev/website'} />
-                    <Project name={'Snake Game'} image={'./snakegame_cut.png'} desc={'A basic retro game with game name and score points display, made with curses library that use the command line as a board.'} label1={'python'}  label2={'curses-gui'} label3={''} date={'June 15, 2020'} igit={'github'} behref={''} githref={'https://github.com/apt-webdev/snakegame'} />
-                    <Project name={'Responsive Website'}  image={'./responsiveweb.png'} desc={'A web page with responsive design and some animations on components, with basic examples of flexbox and css grid system.'} label1={'javascript'}  label2={'html'} label3={'css'} date={'June 16, 2020'} igit={'github'} behref={''} githref={'https://github.com/apt-webdev/basicwebsite'} />
-                    {/* <Project name={'Timer App'} image={'./pat.png'} desc={''} label1={''}  label2={''} label3={''}  date={'coming soon'} icon={''} behref={''} githref={''} />
-                    <Project name={'GraphQL Project'} image={'./pat.png'} desc={''} label1={''}  label2={''} label3={''}  date={'coming soon'} icon={''} behref={''} githref={''}/>
-                    <Project name={'Random Quote Machine'} image={'./pat.png'} desc={''} label1={''}  label2={''} label3={''} date={'coming soon'} icon={''} behref={''} githref={''}/>
-                   */}
+                    <Project name={'Portfolio Site'} image={'./pictures/site_0.png'} desc={'A single-page application using react and npm packages, making an efficient use of react components and bulma templates.'} label1={'react.js'}  label2={'npm'} label3={''} date={'July 23, 2020'} ibe={'behance'} igit={'github'} behref={'https://www.behance.net/gallery/101210221/patriciareiasilva'} githref={'https://github.com/apt-webdev/website'} />
+                    <Project name={'Snake Game'} image={'./pictures/snake_0.png'} desc={'A basic retro game with game name and score points display, made with curses library that use the command line as a board.'} label1={'python'}  label2={'curses-gui'} label3={''} date={'June 15, 2020'} igit={'github'} behref={''} githref={'https://github.com/apt-webdev/snakegame'} />
+                    <Project name={'Responsive Website'}  image={'./pictures/responsive_0.png'} desc={'A web page with responsive design and some animations on components, with basic examples of flexbox and css grid system.'} label1={'javascript'}  label2={'html'} label3={'css'} date={'June 16, 2020'}  igit={'github'} behref={''} githref={'https://github.com/apt-webdev/basicwebsite'} />
+                    <Project name={'Timer App'} image={'./pictures/site_0.png'} desc={'A web page with responsive design and some animations on components, with basic examples of flexbox and css grid system.'} label1={'react.js'}  label2={'server'} label3={''}  date={'coming soon'} ibe={''} igit={'github'} behref={''} githref={'https://github.com/apt-webdev/timer'} />
+                    <Project name={'GraphQL Project'} image={'./pictures/site_0.png'} desc={'A web page with responsive design and some animations on components, with basic examples of flexbox and css grid system.'} label1={'react.js'}  label2={'graphql'} label3={''}  date={'coming soon'} icon={''} behref={''} githref={''}/>
+                    {/* <Project name={'Random Quote Machine'} image={'./pat.png'} desc={''} label1={''}  label2={''} label3={''} date={'coming soon'} icon={''} behref={''} githref={''}/> */}
+                  
                 </div>
             </section>
         );

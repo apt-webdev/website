@@ -43,10 +43,10 @@ class Skills extends React.Component {
                             Git
                         </li>
                         <li>
-                            GraphQL and SQLite3
+                            GraphQL and PHP
                         </li>
                         <li>
-                            Python and PHP
+                            Python and SQLite3
                         </li>
                     </ul>
                 </div>

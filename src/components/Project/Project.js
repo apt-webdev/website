@@ -48,11 +48,10 @@ class Project extends React.Component {
                     {/* <div className="media-left">
                     </div> */}
                     <div className="media-content">
-                        <div className="content">
-
-                        <figure className="image ">
-                            <img src={this.props.image} alt="me"/>
-                        </figure>
+                        <div className="content content-image">
+                            <figure className="image ">
+                                <img src={this.props.image} alt="me"/>
+                            </figure>
                         </div>
                         <div className="content">
                             <p className="">

@@ -1,4 +1,6 @@
 @import '../../index.scss';
+
+
 .work-item{
     // background-color: cadetblue; 
     /* #a7d5d2; */
@@ -12,8 +14,9 @@
     // padding: 2em 2em;
     // filter: blur(10px);
 
-    margin: 1%; 
-    max-width: 30%;
+    max-width: 40%;
+    margin: 5%;
+
 
     @include screen-size(tablet){
       max-width: 100%;
@@ -38,15 +41,16 @@
 
     &.box{
       padding: 2rem;
+      margin-bottom: 10%;
       &:last-child{
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.5rem;
       }
     }
     
     .media{
 
       .content:not(:last-child){
-        margin-bottom: 1.5rem;
+        margin-bottom: 3.5rem;
       }
     }
     
@@ -64,17 +68,25 @@
         vertical-align: text-bottom;
       }
     }
-
+    .content-image{
+      // background-color: bisque;
+    }
     .image{
-      // background-color: grey;
       display: block;
+      // background-color: cyan;
 
     }
 
-    .level-item{
-      color: gray ;
-      :hover{
-        color: cadetblue;
+    
+
+    .level{
+      display: flex;
+      
+      .level-item{
+        color: gray;
+        :hover{
+          color: black;
+        }
       }
     }
   }
