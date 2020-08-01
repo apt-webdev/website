@@ -5,6 +5,7 @@ import './About.scss';
 // import { FaInstagram } from 'react-icons/fa';
 // import { FaBehance } from 'react-icons/fa';
 import SocialMedia from '../SocialMedia/SocialMedia';
+import { FaArrowRight } from 'react-icons/fa';
 
 
 class About extends React.Component {
@@ -23,15 +24,20 @@ class About extends React.Component {
                     <p className="plain-text"> 
                         I am a senior at the Master's degree in network and information systems engineering.
                         <br/><br/>
-                        I am very proud of academic and carreer paths,  though I believe the best is yet to come. 
-                        Raising my standards for new challenges, I aspire to grow as a front end developer while learning more about using interface designs and new programming technologies to set up web applications on a new level of usability.
+                        I am very proud of my academic and career paths, though I believe the best is yet to come. 
+                        Raising my standards for new challenges, I aspire to grow as a front end developer while learning more about applying interface designs and new programming technologies to set up web applications on a new level of usability.
                     </p>
                     <p className="plain-text">
-                        At my hometown, I am committed to various extracurricular activities and involved into the community around me. 
-                        I am a creative and motivated person, and I have a passion for basketball and soccer, traveling, literature and art.
+                        At my hometown, I am committed to various extracurricular activities and involvement in the community around me. 
+                        I am a creative and motivated person, and I have a passion for basketball and soccer, travelling, literature and art.
                     </p>
-                    <div className="div-content title link-cv">
-                        <a href="./docs/patricia-silva-cv.pdf" target="_blank">Resume</a>
+                    <div className="link-cv">
+                        <a href="./docs/patricia-silva-cv.pdf" target="_blank">
+                            Resume
+                            <span>
+                                <FaArrowRight className="icon-resume" />
+                            </span>
+                        </a>
                     </div>
                 </div>
             </section>

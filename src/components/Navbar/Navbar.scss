@@ -19,11 +19,11 @@
   } 
 
   .navbar{
-    padding: 1.25em 5%;
+    padding: 0.7em 5%;
     text-align: justify;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Sen', sans-serif;
     font-weight: 400;
+    font-size: calc(var(--normal-text) * 1.1);
     
   }
   
@@ -31,23 +31,15 @@
     color: black;
     font-weight: 200;
     font-family: 'krona one', sans-serif;
-    font-size: calc(var(--normal-text) * 1.1);
+    @include screen-size(mobile){
+      font-size: 1.5em;
+    }
 
     
   }
   .brand-name {
-    align-self: center; 
-    font-size: 90%;
-    @include screen-size(mobile){
-      font-size: 12px;
-    }
-
-
+    align-self: center;
   }
-  .navbar-end{
-    font-size: var(--navbar-text);
-  }
-  
   
   .item{
     margin-left: 2em;

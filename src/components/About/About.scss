@@ -29,6 +29,22 @@
     margin-bottom: 5%;
     padding-top: 30vmin;
   
+    .link-cv {
+      margin-bottom: 5em;
+      &> a{
+        color: black;
+        font-size: x-large;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        &:hover, &:focus{
+          border-bottom: black solid 3px;
+          color: black;
+        }
+      }
+      .icon-resume{
+        padding-top: 12px !important;
+      }
+    }
   }
 
   .social-media{
@@ -71,15 +87,3 @@
     }
   }
 
-  .link-cv a{
-    color: black;
-    font-size: xx-large;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    &:hover{
-      border-bottom: black solid 4px;
-      color: black;
-
-    }
-  
-  }
