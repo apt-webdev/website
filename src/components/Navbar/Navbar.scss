@@ -19,7 +19,7 @@
   } 
 
   .navbar{
-    padding: 0.5em 5%;
+    padding: 1.25em 5%;
     text-align: justify;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Sen', sans-serif;
@@ -31,17 +31,21 @@
     color: black;
     font-weight: 200;
     font-family: 'krona one', sans-serif;
-    font-size: var(--normal-text);
+    font-size: calc(var(--normal-text) * 1.1);
+
+    
   }
   .brand-name {
     align-self: center; 
-    // font-size: 10px;
     font-size: 90%;
     @include screen-size(mobile){
       font-size: 12px;
     }
 
 
+  }
+  .navbar-end{
+    font-size: var(--navbar-text);
   }
   
   

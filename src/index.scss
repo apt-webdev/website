@@ -12,7 +12,18 @@ code {
     monospace;
 }
 
-
+// set up mixins for responsive design
+@mixin screen-size($size) {
+  @if $size == mobile {
+    @media screen and (max-width: 640px) { @content; }
+  }
+  @else if $size == tablet {
+    @media screen and (max-width: 1024px) { @content; }
+  }
+  @else if $size == desktop {
+    @media screen and (max-width: 2024px) { @content; }
+  }
+}
 
 // CUSTOM PROPERTIES
 
@@ -24,16 +35,23 @@ code {
   --icon-hover-color: gray;
 
   --normal-text: 2vmin;
-  --brand-text-desktop: calc(var(--normal-text) * 1.1);
-  --brand-text-tablet: calc(var(--normal-text) * 1.2);
-  --brand-text-mobile: calc(var(--normal-text) * 1.25);
-  --brand-text: 2vmin;
+  --navbar-text: 20px;
 
+
+  
+  @include screen-size(mobile){
+    margin: 0;
+  }
+  
   section{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
     padding-top: 5em;
+
+    @include screen-size(mobile){
+      margin: 5% !important;
+    }
 
   }
   
@@ -45,7 +63,11 @@ code {
     font-family: 'sen', sans-serif;
     color: black;
     font-weight: 800;
-    font-size: xx-large;
+    font-size: -webkit-xxx-large;
+    @include screen-size(mobile){
+      font-size: xx-large;
+     
+    }
     
   }
   
@@ -58,33 +80,20 @@ code {
     font-weight: 400;
     text-align: justify;
     font-family: 'Sen', sans-serif; 
-    // color: red;
+    font-size: 21.5px;
+    line-height: 35px;
+    @include screen-size(mobile){
+      font-size: 15px;
+      line-height: 30px;
+     
+    }
 
   }
 
-  // .title-text{
-  //   margin-top: 5em; // + navbar offset
-  //   font-family: 'sen', sans-serif; 
-  //   font-weight: medium; //500
-  //   font-size: 6vmin;
-  //   color: black;
-  // }
 
 
 }
 
-// set up mixins for responsive design
-@mixin screen-size($size) {
-  @if $size == mobile {
-    @media screen and (max-width: 640px) { @content; }
-  }
-  @else if $size == tablet {
-    @media screen and (max-width: 768px) { @content; }
-  }
-  @else if $size == desktop {
-    @media screen and (max-width: 1024px) { @content; }
-  }
-}
 
 
 //animation
@@ -96,4 +105,3 @@ code {
       top: -10px;
   }
 }
-

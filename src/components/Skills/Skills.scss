@@ -2,7 +2,7 @@
 
   .skills{
     list-style-type: circle;
-    padding-top: 2em;
+    padding-top: 4em;
     padding-left: 5em;
     
     text-align: justify;
@@ -10,7 +10,7 @@
     font-family: 'Sen', sans-serif;
     font-weight: 400;
     color: black;
-    line-height: 30px;
+    line-height: 40px!important;
 
     @include screen-size(mobile){
       padding-top: 1em;

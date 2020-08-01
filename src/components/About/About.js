@@ -6,6 +6,7 @@ import './About.scss';
 // import { FaBehance } from 'react-icons/fa';
 import SocialMedia from '../SocialMedia/SocialMedia';
 
+
 class About extends React.Component {
     render() {
         return (
@@ -29,6 +30,9 @@ class About extends React.Component {
                         At my hometown, I am committed to various extracurricular activities and involved into the community around me. 
                         I am a creative and motivated person, and I have a passion for basketball and soccer, traveling, literature and art.
                     </p>
+                    <div className="div-content title link-cv">
+                        <a href="./docs/patricia-silva-cv.pdf" target="_blank">Resume</a>
+                    </div>
                 </div>
             </section>
         );

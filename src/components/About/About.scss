@@ -28,8 +28,14 @@
     margin-right: 10%;
     margin-bottom: 5%;
     padding-top: 30vmin;
-    
+  
   }
+
+  .social-media{
+    font-weight: medium; //500
+    font-size: var(--normal-text);
+  }
+
   .intro-text{
     font-family: 'sen', sans-serif; 
     font-weight: medium; //500
@@ -41,21 +47,16 @@
       font-size: 7vmin;
     }
   }
+
   
   
   .pictures{
     width: 100%;
-    margin: auto;
+
+    img{
+      width: -webkit-fill-available;
+    }
   }
-
-
-  // .plain-text{
-  //   font-weight: 400;
-  //   text-align: justify;
-  //   font-family: 'Sen', sans-serif; 
-  //   color: red;
-
-  // }
 
   .text-about-me{
     display: grid;
@@ -70,6 +71,15 @@
     }
   }
 
- 
+  .link-cv a{
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    &:hover{
+      border-bottom: black solid 4px;
+      color: black;
 
+    }
   
+  }

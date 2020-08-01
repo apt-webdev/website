@@ -2,7 +2,6 @@
     display: flex;
     flex-flow:  wrap;
     justify-content: space-evenly; 
-    // background-image: url('../../me3.png') ;
 
     &>:nth-child(1){
       .content-image{
@@ -11,22 +10,22 @@
     }
     &>:nth-child(2){
       .content-image{
-        background-color: beige;
+        background-color: lavender;
       }
     }
     &>:nth-child(3){
       .content-image{
-        background-color: papayawhip;
+        background-color: lighten($color: darksalmon, $amount: 15); //papayawhip;
       }
     }
     &>:nth-child(4){
       .content-image{
-        background-color: lavender;
+        background-color: whitesmoke;
       }
     }
     &>:nth-child(5){
       .content-image{
-        background-color: lighten($color: darkseagreen, $amount: 25) //darkseagreen;
+        background-color: lighten($color: darkseagreen, $amount: 22);//darkseagreen;
       }
     }
   }

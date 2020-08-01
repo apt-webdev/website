@@ -12,7 +12,7 @@ class Skills extends React.Component {
                     <h1 className="title ">Skills</h1>
                 </div>
                 <div className="div-content">
-                    <div className="div-content plain-text">
+                    <div className="plain-text">
                         During my academic path, I have gained a solid understanding of computer science, with a scientific and practical approach to computation and its applications. 
                         <br/>
                         Recently, I have been dedicating my free time to the web development area. 
@@ -20,7 +20,7 @@ class Skills extends React.Component {
                         Some of the skills I master are listed below:
                     </div>
 
-                    <ul className="skills ">
+                    <ul className="skills plain-text">
                         <li>
                             JavaScript
                         </li>
