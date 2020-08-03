@@ -7,6 +7,10 @@
     font-size: var(--normal-text);
     color: black;
     padding: 3rem 1.5rem 0.5rem !important;
+
+    @include screen-size(mobile){
+        font-size: calc(var(--normal-text) * 1.3);
+    }
     
     .footer-social{
         margin-top: 2vmin;

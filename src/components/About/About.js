@@ -25,14 +25,14 @@ class About extends React.Component {
                         I am a senior at the Master's degree in network and information systems engineering.
                         <br/><br/>
                         I am very proud of my academic and career paths, though I believe the best is yet to come. 
-                        Raising my standards for new challenges, I aspire to grow as a front end developer while learning more about applying interface designs and new programming technologies to set up web applications on a new level of usability.
+                        Raising my standards for new challenges, I aspire to grow as a front-end developer while learning more about applying interface designs and new programming technologies to set up web applications on a new level of usability.
                     </p>
                     <p className="plain-text">
                         At my hometown, I am committed to various extracurricular activities and involvement in the community around me. 
                         I am a creative and motivated person, and I have a passion for basketball and soccer, travelling, literature and art.
                     </p>
                     <div className="link-cv">
-                        <a href="./docs/patricia-silva-cv.pdf" target="_blank">
+                        <a href="./docs/patricia-cv.pdf" target="_blank">
                             Resume
                             <span>
                                 <FaArrowRight className="icon-resume" />

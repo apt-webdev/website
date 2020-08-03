@@ -32,13 +32,17 @@
     font-weight: 200;
     font-family: 'krona one', sans-serif;
     @include screen-size(mobile){
-      font-size: 1.5em;
+      font-size: 1.5em !important;
     }
-
-    
   }
+
   .brand-name {
     align-self: center;
+  }
+  .navbar-end{
+    @include screen-size(mobile){
+      font-size: calc(var(--normal-text) * 1.3);
+    }
   }
   
   .item{
