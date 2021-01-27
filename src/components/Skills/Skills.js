@@ -25,7 +25,7 @@ class Skills extends React.Component {
                             JavaScript
                         </li>
                         <li>
-                            HTML5 and SASS
+                            HTML5 and CSS
                         </li>
                         <li>
                             React.js
@@ -34,19 +34,19 @@ class Skills extends React.Component {
                             Vue.js
                         </li>
                         <li>
-                            Node.js and Express.js
+                            Node.js 
                         </li>
                         <li>
                             Bulma and Bootstrap
                         </li>
                         <li>
-                            Git
-                        </li>
-                        <li>
-                            GraphQL and PHP
+                            GraphQL 
                         </li>
                         <li>
                             Python and SQLite3
+                        <li>
+                            Git, NPM
+                        </li>
                         </li>
                     </ul>
                 </div>
