@@ -31,7 +31,7 @@ class SocialMedia extends React.Component {
             </a>   
             <a className = "media-icon"
             rel = "noopener noreferrer"
-            href = "https://www.behance.net/patriciare7ba2"
+            href = "https://codepen.io/patriciareiasilva/pens/showcase"
             target = "_black" >
                 < FaCodepen / >
             </a>  {
